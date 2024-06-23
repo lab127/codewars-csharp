@@ -1,8 +1,8 @@
-namespace FindSmallestInt
+namespace Greeting
 {
     // using System require in codewars for System.Array
     using System;
-    class Kata
+    class FindSmallestInt
     {
         public static int ByArraySort(int[] args)
         {
