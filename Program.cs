@@ -1,1 +1,1 @@
-﻿Console.WriteLine(DoubleChar.DoubleIt("string"));
+﻿Console.WriteLine(SquareEveryDigit.SquareDigits(9119));
