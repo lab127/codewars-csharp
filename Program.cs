@@ -1,1 +1,1 @@
-﻿Console.WriteLine(SquareEveryDigit.SquareDigits(9119));
+﻿Console.WriteLine(BasicMathOps.basicOp('&', 4, 7));
