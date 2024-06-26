@@ -12,7 +12,7 @@ Examples(Operator, value1, value2) --> output
 */
 class BasicMathOps
 {
-    public static double basicOp(char operation, double value1, double value2)
+    public static double BasicOp(char operation, double value1, double value2)
     {
         double result;
         switch (operation)
@@ -36,5 +36,24 @@ class BasicMathOps
         }
 
         return result;
+    }
+    public static double TernaryOperator(char operation, double value1, double value2)
+    {
+        return operation == '+' ? value1 + value2
+                : operation == '-' ? value1 - value2
+                : operation == '*' ? value1 * value2
+                : operation == '/' ? value1 / value2
+                : 0;
+    }
+    public static double SwitchExpression(char operation, double value1, double value2)
+    {
+        return operation switch
+        {
+            '+' => value1 + value2,
+            '-' => value1 - value2,
+            '*' => value1 * value2,
+            '/' => value1 / value2,
+            _ => throw new ArgumentException("Unknown operation", $"{operation}")
+        };
     }
 }
