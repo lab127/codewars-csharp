@@ -1,4 +1,4 @@
-﻿Console.WriteLine(KeepUpTheHook.HoopCount(10));
-Console.WriteLine(KeepUpTheHook.HoopCount(5));
-Console.WriteLine(KeepUpTheHook.HoopCountTernary(10));
-Console.WriteLine(KeepUpTheHook.HoopCountTernary(5));
+﻿Console.WriteLine(BooleanOperation.SetAlarm(true, true));
+Console.WriteLine(BooleanOperation.SetAlarm(false, true));
+Console.WriteLine(BooleanOperation.SetAlarm(true, false));
+Console.WriteLine(BooleanOperation.SetAlarm(false, false));
