@@ -1,4 +1,8 @@
-﻿Console.WriteLine(BooleanOperation.SetAlarm(true, true));
-Console.WriteLine(BooleanOperation.SetAlarm(false, true));
-Console.WriteLine(BooleanOperation.SetAlarm(true, false));
-Console.WriteLine(BooleanOperation.SetAlarm(false, false));
+﻿Console.WriteLine(ConvertStringToNumber.StringToNumber("1405"));
+Console.WriteLine(ConvertStringToNumber.StringToNumber("-7"));
+
+Console.WriteLine(ConvertStringToNumber.ParseStrToNum("1405"));
+Console.WriteLine(ConvertStringToNumber.ParseStrToNum("-7"));
+
+Console.WriteLine(ConvertStringToNumber.TryParseStrToNum("1405"));
+Console.WriteLine(ConvertStringToNumber.TryParseStrToNum("-7"));
