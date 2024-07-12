@@ -18,4 +18,10 @@ class GrasshoperSummation
         }
         return sumIt;
     }
+
+    // https://math.stackexchange.com/questions/2435816/a-formula-for-the-sum-of-the-triangular-numbers
+    public static int GaussTrick(int num)
+    {
+        return num * (num + 1) / 2;
+    }
 }
