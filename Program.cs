@@ -1,8 +1,5 @@
-﻿Console.WriteLine(EvenOdd.EvenOrOdd(1));
-Console.WriteLine(EvenOdd.EvenOrOdd(7));
-Console.WriteLine(EvenOdd.EvenOrOdd(2));
-Console.WriteLine(EvenOdd.EvenOrOdd(42));
-Console.WriteLine(EvenOdd.EvenOrOdd(-1));
-Console.WriteLine(EvenOdd.EvenOrOdd(-7));
-Console.WriteLine(EvenOdd.EvenOrOdd(-2));
-Console.WriteLine(EvenOdd.EvenOrOdd(-42));
+﻿Console.WriteLine(SentenceSmash.Smash(new string[] { "hello" }));
+Console.WriteLine(SentenceSmash.Smash(new string[] { "hello", "world" }));
+Console.WriteLine(SentenceSmash.Smash(new string[] { "hello", "amazing", "world" }));
+Console.WriteLine(SentenceSmash.Smash(new string[] { "this", "is", "a", "really", "long", "sentence" }));
+Console.WriteLine(SentenceSmash.Smash(new string[] { "" }));
